@@ -18,8 +18,7 @@ function setup() {
     world=engine.world;
      
     ground = new Ground(400,383,800,30);
-    rect1 = new Tanker(150,320,100,20);
-    rect2 = new Tanker(150,300,100,20);
+   tanker = new Tanker(65,height-80,70,30);
 }
 
 function draw() {
@@ -27,8 +26,8 @@ function draw() {
 background(0);
 Engine.update(engine);
 ground.display();
-rect1.display();
-rect2.display();
+tanker.display();
+
 }
 
 
