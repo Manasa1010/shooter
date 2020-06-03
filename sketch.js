@@ -23,7 +23,7 @@ function setup() {
 
 function draw() {
 // Remember to update the Matter Engine and set the background.
-background(0);
+background("blue");
 Engine.update(engine);
 ground.display();
 tanker.display();
